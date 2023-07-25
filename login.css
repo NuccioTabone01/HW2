@@ -1,0 +1,103 @@
+body {
+  background-color: #ffffff;
+  color: black;
+  font-family: "Teko", sans-serif;
+}
+
+#logo img {
+  position: absolute;
+  align-items: center;
+  top: 60px;
+  right: 26%;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  color:#ffffff;
+  position: relative;
+  top:300px;
+}
+
+.login h5 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.username,
+.password {
+
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.username label,
+.password label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username input,
+.password input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-btn {
+  text-align: center;
+}
+
+.login-btn input {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:#ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top:20px;
+}
+
+.signup h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-btn-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 4px;
+}

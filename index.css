@@ -1,0 +1,314 @@
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Teko", sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    height: 100%;
+    background-image: url('https://dr.savee-cdn.com/things/6/2/c031b7619a50dbd91609ef.webp');
+    background-position: center;
+    background-size: 100%;
+    
+  }
+
+#link-signup{
+  text-decoration-color: white;
+  color:white;
+  padding: 10px 15px;
+  position: relative;
+}
+  
+  #logo img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+    height: 100px;
+  }
+
+.hidden{
+    display: none;
+}
+
+#nascondi{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#bible-view {
+    
+    color: black;
+    font-size: 18px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+
+#bible-view p{
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+header .button{
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: #333333;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+   
+}
+
+a.button:hover {
+    background-color: white;
+    color:black;
+    
+}
+
+form .submit{
+  color:white;
+  background-color: black;
+}
+
+#bibbia{
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+  top: 280px;
+  
+}
+
+a#bible.button{
+  font-size: 20px;
+}
+
+a#bible.button:hover{
+  cursor:pointer;
+}
+
+
+  header h1{
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    font-size: 3em;
+    text-transform: none;
+    text-align: center;
+    margin: 20px, 20px;
+  }
+  
+  
+  
+  
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+
+  
+
+
+  .footer-col{
+    padding: 0 35px;
+    height: 100%;
+    align-items: center;
+  }
+
+  footer h1{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  
+  .footer-col strong{
+    display: flex;
+    color: #919496;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .footer-col p{
+    font-size: 18px;
+    padding: 3px 0 15px;
+    margin: 0;
+  }
+
+  footer nav{
+    width: 80%;
+    margin: 0;
+  }
+  
+  
+
+ body nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #links {
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    align-items: center;
+  }
+  
+  #separator {
+    width: 2px;
+    height: 20px;
+    background-color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  
+  
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  footer {
+      background-color:black;
+      color:white;
+      text-align: justify;
+      font-size: 10px;
+      text-transform: none;
+      height: 10%;
+      padding: 50px 0 20px;
+    
+  }
+
+
+  
+#menu-icon {
+  display: none;
+}
+
+
+
+@media (max-width: 1060px) {
+  #menu-icon{
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  #links {
+    display: none;
+  }
+
+  .show {
+    display: flex ;
+    padding: 10px 15px;
+    align-items: center;
+  }
+
+  #menu-icon img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  #links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #links a.button {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 760px) {
+  #logo img {
+   display: none;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+}
+
+
+
+  .search-bar input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.search-bar input[type="submit"] {
+    height: 30px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar {
+  position: absolute;
+  top: 40px;
+  right: 40%;
+  padding: 5px;
+}
+
+  
+
+.header-with-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-with-carousel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: carouselAnimation 9s infinite;
+    background-size: cover;
+}
+@keyframes carouselAnimation {
+    0% {
+      opacity: 1;
+      background-image: url('https://images.pexels.com/photos/5825595/pexels-photo-5825595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    33.33% {
+      opacity: 0;
+      background-image: url('https://images.pexels.com/photos/4992820/pexels-photo-4992820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    66.66% {
+      opacity: 0;
+      background-image: url('https://images.pexels.com/photos/10891067/pexels-photo-10891067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    }
+    100% {
+      opacity: 1;
+      background-image: url('https://images.pexels.com/photos/5641977/pexels-photo-5641977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+    
+}
+  
